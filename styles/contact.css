@@ -19,6 +19,7 @@
 .content__details__title {
   font-family: var(--fonte-secundaria);
   font-size: 28px;
+  text-transform: uppercase;
   color: var(--cor-hover);
   margin-bottom: 2%;
 }
