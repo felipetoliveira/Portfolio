@@ -4,6 +4,11 @@
 }
 
 
+.project {
+    height: auto;
+
+}
+
 
 .project__page {
     display: flex;
@@ -12,7 +17,7 @@
     align-items: center;
     gap: 50px;
     padding: 5% 20% 10% 20%;
-   
+
 
 }
 
@@ -74,5 +79,5 @@
 
 .project__image {
     width: 150px;
-    padding: 0 15px 0 0 ;
+    padding: 0 15px 0 0;
 }
