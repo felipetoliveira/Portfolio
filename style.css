@@ -224,9 +224,6 @@
     width: 300px;
   }
 
-  .content__media {
-  }
-
   .content__secundary {
     display: flex;
     flex-direction: column;
@@ -241,10 +238,3 @@
 
 
 
-@media screen and (max-width: 1728px) {
-
-
-
-
-
-}

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 10px 180px 10px;
+  padding: 60px 10px 100px 10px;
   gap: 20px;
 }
 
@@ -36,5 +36,13 @@ text-align:start;
   opacity: .3;
 
 
+}
+
+.content_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--cor-primaria);
+  padding: 2% 0 3% 0;
 }
 
