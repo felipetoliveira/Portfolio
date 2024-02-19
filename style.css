@@ -109,7 +109,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 100px 60px;
+  padding: 80px 60px;
 }
 
 .content__media__title {
@@ -214,7 +214,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 30px 10px;
+    padding: 80px 30px 0;
     gap: 2px;
   }
   
