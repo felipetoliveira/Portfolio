@@ -1,18 +1,15 @@
 .content__details {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10% 10% 17% 10%;
+  padding: 100px 10px 180px 10px;
   gap: 20px;
 }
 
 
 .content__details__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+text-align:start;
 
 }
 
@@ -21,20 +18,23 @@
   font-size: 28px;
   text-transform: uppercase;
   color: var(--cor-hover);
-  margin-bottom: 2%;
+  padding: 20px 0px;
 }
 
 .content__details__subtitle {
   font-family: var(--fonte-secundaria);
-  font-size: 16px;
+  font-size: 14px;
   border: 0.4px solid var(--cor-secundaria);
-  width: 500px;
+  width: 300px;
   padding: 5px;
 
 }
 
 .content__details__imagem {
-  display: flex;
-  flex-direction: row;
-  width: 40%;
+  width: 200px;
+  padding-top: 20px;
+  opacity: .3;
+
+
 }
+
