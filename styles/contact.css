@@ -9,7 +9,14 @@
 
 
 .content__details__text {
-text-align:start;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+width: 500px;
+
+
+
 
 }
 
@@ -25,16 +32,13 @@ text-align:start;
   font-family: var(--fonte-secundaria);
   font-size: 14px;
   border: 0.4px solid var(--cor-secundaria);
-  width: 300px;
+  width: 490px;
   padding: 5px;
 
 }
 
 .content__details__imagem {
-  width: 100px;
-  padding-top: 20px;
-  opacity: .3;
-
+  width: 500px;
 
 }
 
