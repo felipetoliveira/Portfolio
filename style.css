@@ -44,8 +44,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  gap: 30px;
+  gap: 20px;
   padding-left: 150px;
 }
 
@@ -87,22 +86,18 @@ body {
 
 .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   align-content: center;
-  height: 600px;
-  padding: 10px 0px 40px 480px;
-
-  background-image: url(./img/programming.png);
-  background-size: 450px 450px;
-  background-repeat: no-repeat;
-  background-position: 200px 200px;
-  background-clip: initial;
-
+  padding-top: 150px;
+  gap: 100px;
 
 }
 
+.content__image {
+  width: 500px;
+}
 
 .content__main {
   display: flex;
@@ -113,6 +108,8 @@ body {
 
 
 }
+
+
 
 
 .content__main__title {
@@ -235,8 +232,11 @@ body {
 
 
   .content {
-    background-position: 150px 200px;
-    background-size: 350px 350px;
+    gap: 20px;
+  }
+
+  .content__image {
+    width: 400px;
   }
 
 }
@@ -244,11 +244,27 @@ body {
 
 @media screen and (max-width: 768px) {
 
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-primaria);
+  }
+
+  .header__menu {
+    padding-left: 400px;
+    padding-right: 70px;
+  }
 
   .content {
+  display: flex;
+  justify-content: center;
 
-    background-position: 80px 200px;
-    background-size: 250px 250px;
+  }
+
+  .content__image {
+    width: 250px;
   }
 
   .content__secundary {
