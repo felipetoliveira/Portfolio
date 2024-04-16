@@ -25,9 +25,9 @@
 }
 
 body {
-
+  width: 100vw;
+  height: 100vh;
   background-color: var(--cor-primaria);
-
 }
 
 .header {
@@ -35,40 +35,37 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10px 20px;
+  padding: 2vh 1vw; 
   background-color: var(--cor-primaria);
 }
 
-
 .header__menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding-left: 10%; 
   align-items: center;
-  gap: 20px;
-  padding-left: 150px;
+  gap: 2vw; 
 }
-
 
 .header__menu__link {
   color: var(--cor-secundaria);
   font-family: var(--fonte-secundaria);
-  font-size: 16px;
+  font-size: 1.6vw; 
   font-weight: bold;
 }
-
 
 .header__media {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  gap: 15px;
+  gap: 1.5vw; 
   align-items: center;
-  padding-right: 200px;
+  padding-right: 5%; 
 }
 
 .header__media__image {
-  width: 30px;
-  height: 30px;
+  width: 3vw; 
+  height: 3vw; 
 }
 
 .header__media-container {
@@ -78,11 +75,8 @@ body {
   align-items: center;
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
-  font-size: 12px;
-  gap: 5px;
+  font-size: 1.2vw; 
 }
-
-
 
 .content {
   display: flex;
@@ -90,13 +84,12 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding-top: 150px;
-  gap: 100px;
-
+  padding-top: 20vh; 
+  gap: 10vw; 
 }
 
 .content__image {
-  width: 500px;
+  width: 25%; 
 }
 
 .content__main {
@@ -104,80 +97,66 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 400px;
-
-
+  width: 30%; 
 }
-
-
-
 
 .content__main__title {
   font-family: var(--fonte-secundaria);
-  font-size: 36px;
+  font-size: 3.6vw; 
   color: var(--cor-hover);
   text-transform: uppercase;
-  padding-bottom: 3px;
-  width: 400px;
-
-
+  padding-bottom: 0.3vh; 
 }
+
 
 .content__main__subtitle {
   display: flex;
   font-family: var(--fonte-secundaria);
-  font-size: 18px;
+  font-size: 1.8vw; 
   text-transform: uppercase;
-  padding-left: 30px;
-  padding-bottom: 15px;
+  padding-left: 8%; 
+  padding-bottom: 1.5vh; 
 }
 
 .content__main__content {
   font-family: var(--fonte-secundaria);
-  font-size: 21px;
+  font-size: 2.1vw; 
 }
-
-
 
 .content__secundary {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 6vh; 
   background-color: var(--cor-primaria);
-  padding: 100px 60px;
+  padding: 25vh 6vw; 
 }
 
 .content__about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  padding: 100px 200px;
-
+  gap: 1.5vh; 
+  padding: 10vh 20vw; 
 }
 
 .content__about__title {
   font-family: var(--fonte-secundaria);
-  font-size: 28px;
+  font-size: 2.8vw; 
   text-transform: uppercase;
-  padding-bottom: 20px;
-
+  padding-bottom: 8%; 
 }
 
 .content__about__subtitle {
   font-family: var(--fonte-secundaria);
-  font-size: 22px;
-  width: 700px;
+  font-size: 2.2vw; 
 }
 
 .content__skills {
   display: flex;
   flex-direction: column;
-
-  gap: 10px;
-
+  gap: 6vh; 
 }
 
 .content__skills__text {
@@ -185,7 +164,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  gap: 5vw; 
 }
 
 .content__title {
@@ -194,23 +173,21 @@ body {
   justify-content: center;
   font-family: var(--fonte-secundaria);
   text-transform: uppercase;
-  font-size: 28px;
-  padding-bottom: 30px;
+  font-size: 2.8vw; 
+  padding-bottom: 3vh; 
 }
 
 .content__skills__subtitle {
-  font-family: var(--fonte-primariaa);
-  font-size: 18px;
+  font-family: var(--fonte-primariaa); 
+  font-size: 1.8vw; 
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-
 .skills__media {
-  width: 100px;
-  padding-bottom: 10px;
+  width: 10vw;
+  padding-bottom: 1vh; 
 }
 
 .content_footer {
@@ -219,31 +196,22 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--cor-primaria);
-  padding: 2% 0 3% 0;
+  padding: 2vh 0 3vh 0; 
 }
 
 .content_footer_title {
   font-family: var(--fonte-secundaria);
-  font-size: 12px;
-  padding: 15px;
+  font-size: 1.2vw; 
+  padding: 1.5vh; 
 }
 
 @media screen and (max-width: 1024px) {
-
-
-  .content {
-    gap: 20px;
-  }
-
   .content__image {
-    width: 400px;
+    width: 40vw;
   }
-
 }
 
-
 @media screen and (max-width: 768px) {
-
   .header {
     display: flex;
     flex-direction: row;
@@ -253,18 +221,12 @@ body {
   }
 
   .header__menu {
-    padding-left: 400px;
-    padding-right: 70px;
-  }
-
-  .content {
-  display: flex;
-  justify-content: center;
-
+    padding-left: 25vw; 
+    padding-right: 7vw; 
   }
 
   .content__image {
-    width: 250px;
+    width: 25vw; 
   }
 
   .content__secundary {
