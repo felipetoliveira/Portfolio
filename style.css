@@ -223,6 +223,26 @@ body {
 
 @media screen and (max-width: 768px) {
 
+  .header__menu__link {
+
+    font-size: 1.6vw; 
+ 
+  }
+
+  
+  .header__media__image {
+    width: 3vw; 
+    height: 3vw; 
+  }
+  
+  .header__media-container {
+
+    font-size: 1.3vw; 
+
+  }
+
+
+
   .content {
     display: flex;
     flex-direction: column-reverse;
