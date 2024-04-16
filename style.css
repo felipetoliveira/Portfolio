@@ -85,6 +85,7 @@ body {
   align-items: center;
   align-content: center;
   padding-top: 20vh; 
+  padding-bottom: 10vh;
   gap: 10vw; 
 }
 
@@ -97,15 +98,15 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 30%; 
+  width: 40%; 
 }
 
 .content__main__title {
   font-family: var(--fonte-secundaria);
-  font-size: 3.6vw; 
+  font-size: 3.5vw; 
   color: var(--cor-hover);
   text-transform: uppercase;
-  padding-bottom: 0.3vh; 
+  padding-bottom: 0.vh; 
 }
 
 
@@ -120,7 +121,7 @@ body {
 
 .content__main__content {
   font-family: var(--fonte-secundaria);
-  font-size: 2.1vw; 
+  font-size: 1.5vw; 
 }
 
 .content__secundary {
@@ -130,7 +131,8 @@ body {
   align-items: center;
   gap: 6vh; 
   background-color: var(--cor-primaria);
-  padding: 25vh 6vw; 
+  padding: 10vh 4vw; 
+
 }
 
 .content__about {
@@ -138,19 +140,19 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1.5vh; 
-  padding: 10vh 20vw; 
+  padding: 10vh 15vw; 
 }
 
 .content__about__title {
   font-family: var(--fonte-secundaria);
-  font-size: 2.8vw; 
+  font-size: 2.5vw; 
   text-transform: uppercase;
   padding-bottom: 8%; 
 }
 
 .content__about__subtitle {
   font-family: var(--fonte-secundaria);
-  font-size: 2.2vw; 
+  font-size: 1.5vw; 
 }
 
 .content__skills {
@@ -173,12 +175,12 @@ body {
   justify-content: center;
   font-family: var(--fonte-secundaria);
   text-transform: uppercase;
-  font-size: 2.8vw; 
+  font-size: 2.5vw; 
   padding-bottom: 3vh; 
 }
 
 .content__skills__subtitle {
-  font-family: var(--fonte-primariaa); 
+  font-family: var(--fonte-secundaria); 
   font-size: 1.8vw; 
   display: flex;
   flex-direction: column;
@@ -189,6 +191,8 @@ body {
   width: 10vw;
   padding-bottom: 1vh; 
 }
+
+
 
 .content_footer {
   display: flex;
