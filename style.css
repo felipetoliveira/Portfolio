@@ -253,8 +253,13 @@ body {
     
   }
 
+
+.content__image {
+  width: 45%; 
+}
+
   .content__main__title {
-    font-size: 3.5vw; 
+    font-size: 4.5vw; 
     padding-left: 0.1%;
 
  
@@ -264,14 +269,14 @@ body {
   
   .content__main__subtitle {
     
-    font-size: 1.8vw; 
+    font-size: 2w; 
     padding-left: 5%;
   }
 
 
   .content__main__content {
     font-family: var(--fonte-secundaria);
-    font-size:1.8vw; 
+    font-size:2vw; 
   
   
   }
@@ -286,6 +291,6 @@ body {
 
   .content__about__subtitle {
     font-family: var(--fonte-secundaria);
-    font-size: 1.8vw; 
+    font-size: 2vw; 
   }
 }
