@@ -251,6 +251,7 @@ body {
     align-content: center;
     padding-bottom: 10%;
     
+    
   }
 
 
@@ -259,12 +260,20 @@ body {
 }
 
   .content__main__title {
-    font-size: 4.5vw; 
+    font-size: 3.8vw; 
     padding-left: 0.1%;
 
  
   }
   
+  .content__main {
+display: flex;
+align-items: center;
+justify-content: center;
+    width: 52vw;
+
+
+  }
 
   
   .content__main__subtitle {
@@ -277,6 +286,7 @@ body {
   .content__main__content {
     font-family: var(--fonte-secundaria);
     font-size:2vw; 
+    padding-left: 10%;
   
   
   }
