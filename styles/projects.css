@@ -1,102 +1,90 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
-
 
 .project__page {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;   
-    padding: 10px 60px ;
-    padding-bottom: 100px;
-
-
-
-
+    gap: 1.5vw;
+    flex-wrap: wrap;
+    padding: 10vh 3vw;
 }
 
 .project__content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     font-family: var(--cor-secundaria);
-    width: 500px;
-    height: 350px ;
-    padding-right: 20px;
-    border-bottom: 1px solid gray;padding-bottom: 20px;
-
+    width: 25vw;
+    height: 20vh;
+    padding-right: 2vw;
+    border-bottom: 1px solid gray;
+    padding-bottom: 12vh;
 }
-   
+
 .project__content__title {
     font-family: var(--fonte-secundaria);
     color: var(--cor-hover);
-    font-size: 32px;
-    padding: 10px 10px;
+    font-size: 1.8vw;
+    padding: 0vh 1vw;
     text-transform: uppercase;
-
-    
 }
 
 .project__content__tecnology {
     font-family: var(--fonte-secundaria);
-    font-size: 18px;
+    font-size: 1.3vw;
     font-weight: 600;
     color: var(--cor-secundaria);
     text-transform: uppercase;
-    padding: 0 10px;
+    padding: 0 1vw;
 }
 
 .project__content__subtitle {
-
     font-family: var(--fonte-secundaria);
-    font-size: 18px;
+    font-size: 1.2vw;
     color: var(--cor-secundaria);
-    padding: 10px;
-
+    padding: 1vh 1vw;
 }
 
-
-
-.project__buttom {
+.project__button {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    padding: 5% 0 0 0;
-    gap: 20px;
-    padding: 10px;
-
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    padding: 2vh 1vw;
+    
 }
 
-.project__buttom__link {
+.project__button__link {
     font-family: var(--fonte-secundaria);
+    font-size: 1vw;
     color: var(--cor-secundaria);
     text-decoration: none;
     border: 1px solid var(--cor-secundaria);
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 2vw;
+    padding: 0.3vh 1vw;
+ 
 }
 
-.project__buttom__link:hover {
+.project__button__link:hover {
     background-color: var(--cor-hover);
 }
 
-
-
 .project__image {
-    width: 150px;
-    padding: 0 15px 0 0;
+    width: 10vw;
+    padding: 0 1.5vw 0 0;
 }
-
 
 .content_footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: var(--cor-primaria);
-    padding: 2% 0 3% 0;
-  }
+    padding: 2vh 0 3vh 0;
+}
