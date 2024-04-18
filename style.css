@@ -245,7 +245,7 @@ body {
     align-items: center;
     align-content: center;
     padding-bottom: 10%;
-    padding-top: 25%;
+    padding-top: 35%;
   }
 
 
@@ -256,7 +256,7 @@ body {
 
   .content__main__title {
     font-size: 3.8vw;
-    padding-left: 0.1%;
+    padding-right: 8%;
   }
 
   .content__main {
@@ -269,7 +269,7 @@ body {
 
   .content__main__subtitle {
     font-size: 2.2vw;
-    padding-right: 8%;
+    padding-right: 6%;
   }
 
 
