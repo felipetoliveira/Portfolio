@@ -24,7 +24,7 @@
     height: 20vh;
     padding-right: 2vw;
     border-bottom: 1px solid gray;
-    padding-bottom: 12vh;
+    padding-bottom: 100px;
 }
 
 .project__content__title {
@@ -57,7 +57,7 @@
     justify-content: center;
     align-items: center;
     gap: 3vw;
-    padding: 2vh 1vw;
+    padding: 0.2vh 1vw;
     
 }
 
@@ -87,4 +87,33 @@
     justify-content: center;
     background-color: var(--cor-primaria);
     padding: 2vh 0 3vh 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+    .project__content {
+        width: 250px;
+        height: 80px;
+        padding-right: 10px;
+        border-bottom: 1px solid gray;
+        padding-bottom: 10vh;
+
+    }
+
+    .project__content__title {
+        font-size: 14px;
+    }
+
+    .project__content__tecnology {
+        font-size: 12px;
+        
+    }
+    
+    .project__content__subtitle {
+        font-size: 11px;
+
+    }
+
 }
