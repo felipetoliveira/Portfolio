@@ -299,6 +299,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40%;
   }
 
   .content__about__subtitle {
