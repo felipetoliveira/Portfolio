@@ -326,6 +326,11 @@ body {
 
   }
 
+  .content__about {
+    padding-bottom: 20%;
+
+  }
+
   .content__skills {
     padding-bottom: 20%;
   }
