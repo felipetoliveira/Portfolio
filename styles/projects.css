@@ -23,31 +23,33 @@
     width: 25vw;
     height: 20vh;
     padding-right: 2vw;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--cor-tercearia);
     padding-bottom: 80px;
 }
 
 .project__content__title {
     font-family: var(--fonte-secundaria);
-    color: var(--cor-hover);
+    color: var(--cor-tercearia);
     font-size: 1.8vw;
     padding: 0vh 1vw;
     text-transform: uppercase;
+    letter-spacing:1mm;
 }
 
 .project__content__tecnology {
     font-family: var(--fonte-secundaria);
     font-size: 1.3vw;
     font-weight: 600;
-    color: var(--cor-secundaria);
+    color: var(--cor-text);
     text-transform: uppercase;
     padding: 0 1vw;
+
 }
 
 .project__content__subtitle {
+    color: var(--cor-text);
     font-family: var(--fonte-secundaria);
     font-size: 1.2vw;
-    color: var(--cor-secundaria);
     padding: 1vh 1vw;
 }
 
@@ -64,9 +66,9 @@
 .project__button__link {
     font-family: var(--fonte-secundaria);
     font-size: 1vw;
-    color: var(--cor-secundaria);
+    color: var(--cor-text);
     text-decoration: none;
-    border: 1px solid var(--cor-secundaria);
+    border: 1px solid var(--cor-text);
     border-radius: 2vw;
     padding: 0.3vh 1vw;
  
