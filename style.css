@@ -99,6 +99,7 @@ body {
   gap: 1vw;
 
 }
+
 .content__main {
   display: flex;
   flex-direction: column;
@@ -304,13 +305,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36%;
-    padding-bottom: 45vh;
+    width: 80%;
+    padding-bottom: 40vh;
+
   }
 
   .content__main__title {
     letter-spacing: 0;
+    font-size: 4.5vw;
   }
+
+  .content__main__subtitle {
+    letter-spacing: 0;
+    font-size: 2.2vw;
+  }
+
+  .content__main__content {
+    font-size: 2.2vw;
+  }
+
+
+
+
 
   .content__image {
     width: 42%;
@@ -327,7 +343,10 @@ body {
 
   .content__about {
     padding-bottom: 20%;
+  }
 
+  .content__about__title {
+    letter-spacing: 0;
   }
 
   .content__skills {
@@ -337,12 +356,13 @@ body {
 
   .content__about__subtitle {
     font-family: var(--fonte-secundaria);
-    font-size: 2vw;
+    font-size: 2.2vw;
 
   }
 
   .content__title {
     padding-bottom: 0.1vh;
+    letter-spacing: 0;
   }
 
   .content__skills {
