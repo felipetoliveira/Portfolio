@@ -305,7 +305,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 36%;
-    padding-bottom: 30%;
+    padding-bottom: 45vh;
   }
 
   .content__main__title {
@@ -313,7 +313,6 @@ body {
   }
 
   .content__image {
-
     width: 42%;
   }
 
