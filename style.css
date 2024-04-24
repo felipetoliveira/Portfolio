@@ -51,7 +51,7 @@ body {
 .header__menu__link {
   color: var(--cor-text);
   font-family: var(--fonte-secundaria);
-  font-size: 1.1vw;
+  font-size: 1.3vw;
   font-weight: 100;
 }
 
@@ -296,7 +296,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 45%;
-    padding-bottom: %;
+    padding-bottom: 0%;
 
   }
 
