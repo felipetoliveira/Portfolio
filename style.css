@@ -47,6 +47,62 @@ body {
   gap: 5vw;
 }
 
+/* About title */
+.about-section h2{
+  font-size: 3rem;
+  letter-spacing: 0.5mm;
+  padding-bottom: 2rem;
+}
+
+/* About subtitle */
+.about-section p{
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+/* Section skills title */
+.skills-content h2{
+  font-size: 3rem;
+  letter-spacing: 0.5mm;
+}
+
+/* Global carousel image styles */
+.carousel-item img {
+  height: 300px;
+  opacity: 0.75;
+  object-fit: contain;
+}
+
+/* image title */
+.img-title p{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+
+/* Padding around carousel */
+.carousel-inner {
+  padding: 1rem;
+}
+
+/* Text styles inside carousel */
+.carousel-caption {
+  position: static;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+/* Carousel navigation control style */
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5%;
+}
+
+
+
+
 .header__menu__link {
   color: var(--cor-text);
   font-family: var(--fonte-secundaria);
