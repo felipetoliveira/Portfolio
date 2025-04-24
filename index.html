@@ -19,38 +19,55 @@
             <a class="header__menu__link" href="projects.html">Projects</a>
             <a class="header__menu__link" href="contact.html">Contact</a>
         </nav>
-
-        <div class="header__media">
-            <a class="header__media-container" href="./assets/CV IT - Felipe Teixeira de Oliveira.pdf " target="_blank">
-                <img class="header__media__image" src="./img/cv.png" alt="Cv download">CV</a>
-            <a class="header__media-container" href="https://github.com/felipetoliveira" target="_blank"> <img
-                    class="header__media__image" src="./img/github-sign.png" alt=" github logo"> Github</a>
-            <a class="header__media-container" href="https://www.linkedin.com/in/teixeira-felipe/" target="_blank"><img
-                    class="header__media__image" src="./img/linkedin.png" alt="linkedin Logo">Linkedin</a>
-        </div>
     </header>
 
     <main>
 
-        <section class=" content">
-            <img class="content__image" src="./img/programming.png" alt="">
-            <div class="content__main">
-                <h1 class="content__main__title"> Hello, I'm Felipe </h1>
-                <h2 class="content__main__subtitle"> Welcome to my portfolio!</h2>
+        <section class="py-5">
+            <div class="container mt-5 mb-5">
+                <div class="row p-4 pb-0 p-lg-0 align-items-center rounded-5 border shadow-lg">
 
-                <p class="content__main__content">You'll find everything about me, my projects, and social media
-                    links.
-                    Let's connect and explore together! </p>
+                    <!-- Imagem: em cima no mobile, ao lado no desktop -->
+                    <div class="img-principal col-12 col-lg-5 order-1 order-lg-2 text-center">
+                        <img class="img-fluid rounded-3" src="./img/teste.JPG" alt="Foto Felipe">
+                    </div>
 
+                    <!-- Texto e botões -->
+                    <div class="col-12 col-lg-7 order-2 order-lg-1 p-3 p-lg-5 pt-lg-3">
+                        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Hello, I’m a Full Stack Developer</h1>
+                        <p class="lead">Discover more about me, my projects, and connect through my social platforms.
+                            Let’s create something amazing together!</p>
+
+                        <!-- Botões lado a lado mesmo em telas pequenas -->
+                        <div class=" buttom d-flex flex-wrap gap-2 mb-2 mb-lg-3">
+                            <a href="https://github.com/felipetoliveira" target="_blank"
+                                class="btn btn-outline-secondary btn-lg px-4">
+                                <img src="./img/github.svg" height="30" alt="github"> Github
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/teixeira-felipe/" target="_blank"
+                                class="btn btn-outline-secondary btn-lg px-4">
+                                <img src="./img/linkedin.svg" height="30" alt="linkedin"> Linkedin
+                            </a>
+
+                            <a href="./assets/CV IT - Felipe Teixeira de Oliveira.pdf" target="_blank"
+                                class="btn btn-outline-secondary btn-lg px-4">
+                                <img src="./img/cv.png" height="30" alt="CV"> CV
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
+
 
         <!-- Second section -->
         <section class="container my-5">
             <div class="row align-items-center">
                 <!-- About Me Column -->
                 <div class=" about-section col-md-8 col-sm-12 mb-md-0">
-                    <h2>About me</h2>
+                    <h2>Who I am</h2>
                     <p>
                         My name is Felipe Teixeira de Oliveira, from Embu das Artes, São Paulo, Brazil. In 2019, I came
                         to Ireland to embark on a study exchange program focused on learning the English language.
@@ -135,11 +152,10 @@
                 </div>
             </div>
         </section>
-
-
-
     </main>
 
+
+    <!-- footer section -->
     <footer class="py-3 my-4 border-top ">
         <div class="container">
             <p class="text-center text-body-secondary ">
